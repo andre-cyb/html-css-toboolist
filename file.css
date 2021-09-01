@@ -64,10 +64,27 @@ h1{
 .liste{
     margin-bottom: 30px;
 }
-.categorie_task{
-    background-color: #45ABEA;
+.categorie{
     color: white;
     font-size: 10px;
     padding: 7px;
     border-radius: 10px;
+}
+.editorial{
+    background-color: #45ABEA;    
+}
+.goals{
+    background-color: #9C72E4;
+}
+.recruiting{
+    background-color: #64C0A9;
+}
+.website{
+    background-color: #D863A1;
+}
+.mobile{
+    background-color: #F29E33;
+}
+.sales{
+    background-color: #B0C926;
 }
