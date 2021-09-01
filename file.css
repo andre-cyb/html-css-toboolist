@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: grey;
+}
+
+main{
+    height: 100vh;
+    background-color: grey;
+}
+
+header{
+    background-color: white;
+    height: 100px; 
+    vertical-align: middle;
+}
+
+#logo{
+    display: inline-block;
+    width: 70px;
+    margin: 20px;
+    margin-left: 25px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 45px;
+}
+
+#finestra{
+    background-color: wheat;
+    width: 900px;
+    margin: auto;
+    margin-top: 50px ;
+}
+.buttons{
+    margin: 10px 10px;
+    padding: 5px;
+    padding-left: 10px;
+}
+.left{
+    margin-left: 80px;
+}
+
+#sezione_bottoni{
+    border-bottom: 3px solid grey;
+}
