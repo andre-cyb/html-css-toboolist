@@ -26,6 +26,10 @@ header{
     margin-right: 10px;
     vertical-align: middle;
 }
+p{
+    margin: 10px 10px;
+    font-size: 20px;
+}
 
 
 h1{
@@ -35,7 +39,7 @@ h1{
 }
 
 #finestra{
-    background-color: wheat;
+    background-color: white;
     width: 900px;
     margin: auto;
     margin-top: 50px ;
@@ -46,9 +50,24 @@ h1{
     padding-left: 10px;
 }
 .left{
-    margin-left: 80px;
+    margin-left: 40px;
 }
 
 #sezione_bottoni{
     border-bottom: 3px solid grey;
+}
+#sezione_liste{
+    padding: 35px;
+    padding-left: 40px;
+}
+
+.liste{
+    margin-bottom: 30px;
+}
+.categorie_task{
+    background-color: #45ABEA;
+    color: white;
+    font-size: 10px;
+    padding: 7px;
+    border-radius: 10px;
 }
