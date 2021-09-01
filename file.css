@@ -3,9 +3,13 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Roboto', sans-serif;
+   
+/****************************************************************
+
+   /* SELETTORI PER TAG */
 }
 body{
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(233, 233, 233);
 }
 
 main{
@@ -18,19 +22,15 @@ header{
     vertical-align: middle;
 }
 
-#logo{
-    display: inline-block;
-    width: 70px;
-    margin: 20px;
-    margin-left: 25px;
-    margin-right: 10px;
-    vertical-align: middle;
-}
 p{
     margin: 10px 10px;
     font-size: 20px;
 }
 
+h2{
+    color: rgb(63, 63, 63);
+    font-weight: bold;
+}
 
 h1{
     display: inline-block;
@@ -38,20 +38,23 @@ h1{
     font-size: 45px;
 }
 
-#finestra{
-    background-color: white;
-    width: 900px;
-    margin: auto;
-    margin-top: 50px ;
-}
+
+
+
+
+/****************************************************************
+
+/* SELETTORI PER CLASSE */
+
 .buttons{
     margin: 10px 10px;
     padding: 5px;
     padding-left: 10px;
-    border-radius: 4px;
+    padding-right: 10px;
+    border-radius: 5px;
     border: 1px solid  rgb(214, 214, 214);
-
-
+    
+    
 }
 .left{
     margin-left: 40px;
@@ -59,16 +62,8 @@ h1{
     color: white;
 }
 .right{
-    color: rgb(204, 204, 204);
+    color: rgb(168, 168, 168);
     background-color: white;
-}
-
-#sezione_bottoni{
-    border-bottom: 3px solid rgb(240, 240, 240);
-}
-#sezione_liste{
-    padding: 35px;
-    padding-left: 40px;
 }
 
 .liste{
@@ -77,7 +72,9 @@ h1{
 .categorie{
     color: white;
     font-size: 10px;
-    padding: 7px;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
     border-radius: 10px;
 }
 .editorial{
@@ -97,4 +94,39 @@ h1{
 }
 .sales{
     background-color: #B0C926;
+}
+
+
+.simbols{
+    width: 2px;
+}/*  non ho trovato i simboli come in documento */
+
+
+
+
+/***************************************************************
+
+/* SELETORI PER ID */
+
+#logo{
+    display: inline-block;
+    width: 70px;
+    margin: 20px;
+    margin-left: 25px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+#finestra{
+    background-color: white;
+    width: 900px;
+    margin: auto;
+    margin-top: 50px ;
+    border-radius: 8px;
+}
+#sezione_bottoni{
+    border-bottom: 3px solid rgb(240, 240, 240);
+}
+#sezione_liste{
+    padding: 35px;
+    padding-left: 40px;
 }
