@@ -2,14 +2,14 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 body{
-    background-color: grey;
+    background-color: rgb(240, 240, 240);
 }
 
 main{
     height: 100vh;
-    background-color: grey;
 }
 
 header{
@@ -48,13 +48,23 @@ h1{
     margin: 10px 10px;
     padding: 5px;
     padding-left: 10px;
+    border-radius: 4px;
+    border: 1px solid  rgb(214, 214, 214);
+
+
 }
 .left{
     margin-left: 40px;
+    background-color:#45ABEA ;
+    color: white;
+}
+.right{
+    color: rgb(204, 204, 204);
+    background-color: white;
 }
 
 #sezione_bottoni{
-    border-bottom: 3px solid grey;
+    border-bottom: 3px solid rgb(240, 240, 240);
 }
 #sezione_liste{
     padding: 35px;
